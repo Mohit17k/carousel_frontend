@@ -1,0 +1,146 @@
+.slider {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 10px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-slide.slick-current {
+    opacity: 1;
+    width: 418px !important;
+    height: 500px;
+    top:0px;
+    border-radius: 10px;
+    border-bottom: 10px solid #F8C145;
+    box-shadow: 0px 10px 10px 5px #ccc;
+    background-image: linear-gradient(to right top, #fdfdfd, #f8f8f8, #f2f2f2, #ededed, #e8e8e8);
+    .background {
+        width: 170px;
+        height: 170px;
+        padding: 0;
+        margin: 0 auto;
+        position: relative;
+        border: 1px solid #484848;
+    }
+    .line1 {
+        width: 241px;
+        top: 45px;
+        left: -26px;
+        height: 47px;
+        border-bottom: 1px solid #484848;
+        -webkit-transform:
+            translateY(0px)
+            translateX(8px)
+            rotate(45deg); 
+        position: absolute;
+        /* top: -20px; */
+    }
+    .line2 {
+        width: 241px;
+        height: 47px;
+        border-bottom: 1px solid #484848;
+        -webkit-transform:
+            translateY(54px)
+            translateX(4px)
+            rotate(-45deg);
+        position: absolute;
+        top: -8px;
+        left: -56px;
+    }
+    .box-settings {
+        transform: translate(0px, 100px);
+    }
+    h2 {
+        text-align: center;
+        font-family: 'Arial';
+        font-weight: bold;
+        font-size: 30px;
+        margin: 60px auto 60px;
+    }
+    h6 {
+        text-align: center;
+        font-family: 'Arial';
+    }
+}
+
+
+.slick-list.draggable {
+    padding: 0px !important;
+}
+
+.slick-slide {
+    .box-settings {
+        transform: translate(0px, 50px);
+    }
+    h6 {
+        text-align: center;
+        font-family: 'Arial';
+    }
+    h2 {
+        text-align: center;
+        font-family: 'Arial';
+        font-size: 30px;
+        font-size: 19px;
+        margin: 40px;
+        letter-spacing: 1.4px;
+        font-weight: 500;
+    }
+    .background {
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        position: relative;
+        margin: 0 auto;
+        border: 1px solid #484848;
+    }
+    .line1 {
+        width: 141px;
+        height: 27px;
+        border-bottom: 1px solid #484848;
+        -webkit-transform:
+            translateY(-26px)
+            translateX(-2px)
+            rotate(45deg); 
+        position: absolute;
+        top: 53px;
+        left: -8px;
+        /* top: -20px; */
+    }
+    
+    .line2 {
+        width: 142px;
+        height: 27px;
+        border-bottom: 1px solid #484848;
+        -webkit-transform:
+            translateY(27px)
+            translateX(-10px)
+            rotate(-45deg);
+        position: absolute;
+        left: -21px;
+    }
+}
+
+
+
+
